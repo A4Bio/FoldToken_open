@@ -172,7 +172,7 @@ One can use following script to extract vq ids from pdbs in **`path_in`**, and s
 * [Structure Generation](https://choosealicense.com)
 * [Inverse Folding](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 
-## Dataset
+## Dataset & Model
 
 | Dataset  | Link |  Samples  | Comments
 | ------------- | ------------- | ------------- |-------------  | 
@@ -182,6 +182,12 @@ One can use following script to extract vq ids from pdbs in **`path_in`**, and s
 | T116 | [Download](https://zenodo.org/records/13899518/files/T116.zip?download=1) | 493 | Single-chain Data, for evaluation  |
 | T493 | [Download](https://zenodo.org/records/13899518/files/T493.zip?download=1) | 493 | Single-chain Data, for evaluation  |
 | M1031 | [Download](https://zenodo.org/records/13899518/files/M1031.zip?download=1) | 1031 | Protein Complex Data, for evaluation  |
+
+
+| Model | Link |
+| ------------- | ------------- |
+| FoldToken4 | [ckpt](https://zenodo.org/records/13901445)|
+
 
 
 
