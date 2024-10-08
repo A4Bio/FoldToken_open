@@ -1,0 +1,7 @@
+__pycache__
+.vscode
+.ipynb_checkpoints
+/paper_figs/
+/N128
+/N128_pred_level8
+/foldtoken/model_zoom
