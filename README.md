@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/foldtoken_logo_blue.png" alt="Logo" width="800" >
+    <img src="foldtoken/images/foldtoken_logo_blue.png" alt="Logo" width="800" >
   </a>
 
   <h3 align="center">FoldToken: A generative protein structure language!</h3>
@@ -120,11 +120,11 @@ One can use this script to validate the reconstruction performance of FoldToken4
 
 <div style="display: flex; justify-content: space-around;">
   <figure style="text-align: center;">
-    <img src="images/8ybxR.png" alt="8ybxR" style="width: 100%;">
+    <img src="foldtoken/images/8ybxR.png" alt="8ybxR" style="width: 100%;">
     <figcaption>8ybxR</figcaption>
   </figure>
   <figure style="text-align: center;">
-    <img src="images/8vy8E.png" alt="8vy8E" style="width: 89%;">
+    <img src="foldtoken/images/8vy8E.png" alt="8vy8E" style="width: 89%;">
     <figcaption>8vy8E</figcaption>
   </figure>
 </div>
@@ -352,7 +352,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: foldtoken/images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
