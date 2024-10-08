@@ -169,7 +169,7 @@ One can use following script to extract vq ids from pdbs in **`path_in`**, and s
     - [ ] MSA Folding
 - [ ] Function Prediction (struct->Func)
 
-* [Structure Generation](https://choosealicense.com)
+* [FoldGPT](https://github.com/A4Bio/FoldGPT_open)
 * [Inverse Folding](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 
 ## Dataset & Model

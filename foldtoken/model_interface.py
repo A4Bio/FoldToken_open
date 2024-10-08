@@ -29,7 +29,7 @@ class MInterface(MInterface_base):
         self.save_hyperparameters()
         self.load_model()
         self.cross_entropy = nn.NLLLoss(reduction='none')
-        # os.makedirs(os.path.join(self.hparams.res_dir, self.hparams.ex_name), exist_ok=True)
+
         self.train_steps_per_epoch = self.hparams.steps_per_epoch
         self.temp_scale = 0.001
         self.vqshortcut = True
@@ -56,11 +56,8 @@ class MInterface(MInterface_base):
 
     
     def load_model(self):
-        params = OmegaConf.load(f'./foldtoken/src/models/configs/PiFold.yaml')
-        params.update(self.hparams)
-
         from src.models.FoldToken4 import PiFold_Model
-        self.model = PiFold_Model(params)
+        self.model = PiFold_Model(self.hparams)
 
 
     def instancialize(self, Model, **other_args):
@@ -193,7 +190,7 @@ class MInterface(MInterface_base):
         chain_encoding = chain_encoding[chain_encoding<1000]
         
         h_V_quat = self.model.vq.embed_id(vq_code, level)
-        protein_pred = self.model.decoding(h_V_quat, chain_encoding, batch_id=None, returnX=False)
+        # protein_pred = self.model.decoding(h_V_quat, chain_encoding, batch_id=None, returnX=False)
         
         return h_V_quat, vq_code,  batch_id, chain_encoding
     
