@@ -71,6 +71,7 @@
     <li><a href="#dataset">Dataset</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact">Citation</a></li>
   </ol>
 </details>
 
@@ -118,7 +119,7 @@ One can use this script to validate the reconstruction performance of FoldToken4
 </p> -->
 
 
-<div style="display: flex; justify-content: space-around;">
+<!-- <div style="display: flex; justify-content: space-around;">
   <figure style="text-align: center;">
     <img src="foldtoken/images/8ybxR.png" alt="8ybxR" style="width: 50%;">
     <figcaption>8ybxR</figcaption>
@@ -127,7 +128,11 @@ One can use this script to validate the reconstruction performance of FoldToken4
     <img src="foldtoken/images/8vy8E.png" alt="8vy8E" style="width: 45%;">
     <figcaption>8vy8E</figcaption>
   </figure>
-</div>
+</div> -->
+
+| ![8ybxR](foldtoken/images/8ybxR.png) | ![8vy8E](foldtoken/images/8vy8E.png) |
+|:------------------------------------:|:------------------------------------:|
+| 8ybxR                               | 8vy8E                               |
 
 
 ``` bash
@@ -318,6 +323,50 @@ Zhangyang Gao  - gaozhangyang@westlake.edu.cn
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## Citation
+
+If you are interested in our repository or our paper, please cite the following paper:
+
+```
+@article{gao2023vqpl,
+  title={Vqpl: Vector quantized protein language},
+  author={Gao, Zhangyang and Tan, Cheng and Li, Stan Z},
+  journal={arXiv preprint arXiv:2310.04985},
+  year={2023}
+}
+
+@article{gao2024foldtoken,
+  title={Foldtoken: Learning protein language via vector quantization and beyond},
+  author={Gao, Zhangyang and Tan, Cheng and Wang, Jue and Huang, Yufei and Wu, Lirong and Li, Stan Z},
+  journal={arXiv preprint arXiv:2403.09673},
+  year={2024}
+}
+@article{gao2024foldtoken2,
+  title={FoldToken2: Learning compact, invariant and generative protein structure language},
+  author={Gao, Zhangyang and Tan, Cheng and Li, Stan Z},
+  journal={bioRxiv},
+  pages={2024--06},
+  year={2024},
+  publisher={Cold Spring Harbor Laboratory}
+}
+@article{gao2024foldtoken3,
+  title={FoldToken3: Fold Structures Worth 256 Words or Less},
+  author={Gao, Zhangyang and Tan, Chen and Li, Stan Z},
+  journal={bioRxiv},
+  pages={2024--07},
+  year={2024},
+  publisher={Cold Spring Harbor Laboratory}
+}
+@article{gao2024foldtoken4,
+  title={FoldToken4: Consistent \& Hierarchical Fold Language},
+  author={Gao, Zhangyang and Tan, Cheng and Li, Stan Z},
+  journal={bioRxiv},
+  pages={2024--08},
+  year={2024},
+  publisher={Cold Spring Harbor Laboratory}
+}
+```
 
 
 <!-- ACKNOWLEDGMENTS -->
