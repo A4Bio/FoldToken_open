@@ -120,11 +120,11 @@ One can use this script to validate the reconstruction performance of FoldToken4
 
 <div style="display: flex; justify-content: space-around;">
   <figure style="text-align: center;">
-    <img src="foldtoken/images/8ybxR.png" alt="8ybxR" style="width: 100%;">
+    <img src="foldtoken/images/8ybxR.png" alt="8ybxR" style="width: 50%;">
     <figcaption>8ybxR</figcaption>
   </figure>
   <figure style="text-align: center;">
-    <img src="foldtoken/images/8vy8E.png" alt="8vy8E" style="width: 89%;">
+    <img src="foldtoken/images/8vy8E.png" alt="8vy8E" style="width: 45%;">
     <figcaption>8vy8E</figcaption>
   </figure>
 </div>
